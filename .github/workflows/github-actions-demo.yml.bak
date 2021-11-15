@@ -1,7 +1,7 @@
-name: GitHub Actions Demo
+name: GitHub Actions Demo # 工作流名称
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Explore-GitHub-Actions: # jobs名称
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
